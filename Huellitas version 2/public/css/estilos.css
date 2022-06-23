@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,100,300,700,100italic,300italic,400italic,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(63, 240, 242);
+    background: linear-gradient(117deg, rgba(63, 240, 242, 1) 2%, rgba(144, 240, 233, 0.3561799719887955) 11%, rgba(94, 231, 210, 0.3253676470588235) 18%, rgba(181, 241, 233, 0.2413340336134454) 33%, rgba(127, 222, 210, 0.2637429971988795) 45%, rgba(102, 231, 223, 0.23853291316526615) 58%, rgba(93, 235, 228, 0.32816876750700286) 65%, rgba(71, 243, 239, 0.3449754901960784) 81%, rgba(56, 248, 247, 0.19371498599439774) 92%, rgba(45, 252, 253, 1) 100%);
+}
+
+.fotos {
+    background-color: #0cb7f2;
+    align-items: center;
+    text-align: center;
+
+}
+
+.letras {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: #0cb7f2 !important;
+}
+
+.brand-logo {
+    padding-left: 20px !important;
+}
+
+.register,
+.login {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*WELCOME*/
+
+.margen {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.custom-img {
+    background: #616161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(177, 27%, 69%, 0.24), hsla(0, 0%, 38%, 0.253)), url(https://blog.clubviva.cl/wp-content/uploads/2021/06/shutterstock_1689740593-1024x517.jpg);
+    background: linear-gradient(to right, hsla(177, 27%, 69%, 0.24), hsla(0, 0%, 38%, 0.253)), url(https://blog.clubviva.cl/wp-content/uploads/2021/06/shutterstock_1689740593-1024x517.jpg);
+  }
+
+
+.nombre-pagina {
+    padding-top: 100px;
+    padding-left: 50px;
+    color: #000000d5;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.segundo-nombre {
+    font-weight: bold;
+
+}
+
+.botones {
+    margin-left: 4.5%;
+    background-color: #0cb7f2;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.letra-boton {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.informacion-index,
+.alimento-index {
+
+
+    background-color: #0cb7f2;
+
+
+
+}
+
+.cuidado-index {
+
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+.letra-cuadro-index {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.letra-cuadro-index-p-a {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 38%;
+}
+
+.letra-cuadro-index-p {
+    font-weight: bold;
+}
+
+.foto-index {
+    margin-left: 17%;
+}
+
+.card-info {
+    height: 100px;
+    background-color: rgb(8, 255, 119);
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.TituloPagina {
+    text-align: center;
+}
+
+.btn {
+    background-color: #0cb9f252 !important;
+}
+
+.fourth {
+    width: 180px;
+    padding-bottom: 5px;
+    border-color: #0cb7f2;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #0cb7f2 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0cb7f2 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.fourth:hover {
+    background-position: 0;
+}
+
+
+.lista-animal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla-animal {
+    padding-bottom: 40px;
+}
+
+.fondo{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}

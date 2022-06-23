@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,100,300,700,100italic,300italic,400italic,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+
+.fotos {
+    background-color: #97bdca;
+    align-items: center;
+    text-align: center;
+
+}
+
+.letras {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: #c0edfc !important;
+}
+
+.brand-logo {
+    padding-left: 20px !important;
+}
+
+.register,
+.login {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*WELCOME*/
+
+.margen {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.nombre-pagina {
+    padding-top: 100px;
+    padding-left: 50px;
+    color: #000000d5;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.segundo-nombre {
+    font-weight: bold;
+
+}
+
+.botones {
+    margin-left: 4.5%;
+    background-color: #0cb7f2;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.letra-boton {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.informacion-index,
+.alimento-index {
+
+
+    background-color: #0cb7f2;
+
+
+
+}
+
+.cuidado-index {
+
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+.letra-cuadro-index {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.letra-cuadro-index-p-a {
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 38%;
+}
+
+.letra-cuadro-index-p {
+    font-weight: bold;
+}
+
+.foto-index {
+    margin-left: 17%;
+}
+
+.card-info {
+    height: 100px;
+    background-color: rgb(8, 255, 119);
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.TituloPagina {
+    text-align: center;
+}
+
+.btn {
+    background-color: #0cb9f252 !important;
+}
+
+.fourth {
+    width: 180px;
+    padding-bottom: 5px;
+    border-color: #0cb7f2;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #0cb7f2 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #0cb7f2 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.fourth:hover {
+    background-position: 0;
+}
+
+
+.lista-animal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla-animal {
+    padding-bottom: 40px;
+}
+
+.fondo{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.img-contenedor img {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    }
+    .img-contenedor:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+    .img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width:300px;
+    height:180px;
+    overflow:hidden;
+    }
+  
+            /*Reducir tamaño*/
+            .img-contenedor:hover img {
+            -webkit-transform:scale(0.95);
+            -moz-transform:scale(0.95);
+            -ms-transform:scale(0.95);
+            -o-transform:scale(0.95);
+            transform:scale(0.95);
+            }
